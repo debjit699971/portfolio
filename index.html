@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debjit Das | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- GSAP + ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+</head>
+<body>
+
+  <!-- Dark Mode Background Effects -->
+  <div id="stars"></div>
+  <div id="moon"></div>
+
+
+  <!-- Floating Shapes -->
+  <div class="bg-shape"></div>
+  <div class="bg-shape"></div>
+  <div class="bg-shape"></div>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1>Debjit Das</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="dark-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Scroll Progress Bar -->
+<div id="progress-container">
+  <div id="progress-bar"></div>
+</div>
+
+
+ <!-- Hero -->
+<section id="hero">
+  <div class="hero-container">
+    <!-- Text Only -->
+    <div class="hero-text">
+      <h2>Hello, I'm Debjit 👋</h2>
+      <p id="typing"></p>
+      <p class="cta-line">🚀 Let’s build something amazing together!</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="assets/Resume.pdf" target="_blank" class="btn resume-btn">📄 Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="floating-shapes">
+  <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="wave-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,117.3C672,96,768,64,864,74.7C960,85,1056,139,1152,138.7C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+  </div>
+
+
+  <!-- Wave Effect -->
+  <div class="wave"></div>
+</section>
+
+
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="assets/profile.jpg" alt="Debjit Das" class="profile-pic">
+      <div class="about-text">
+        <p>
+          I am a Computer Science Engineering student skilled in <b>full-stack development (MERN stack)</b> 
+          and <b>object-oriented programming (Java)</b>. Strong in problem-solving, clean code practices, 
+          and teamwork. Passionate about using technology to solve real-world problems and eager to 
+          contribute to a growth-focused tech team.
+        </p>
+      </div>
+    </div>
+    <div class="wave-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,117.3C672,96,768,64,864,74.7C960,85,1056,139,1152,138.7C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">HTML</div>
+      <div class="skill-back">Rating: 9/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">CSS</div>
+      <div class="skill-back">Rating: 9/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">JavaScript</div>
+      <div class="skill-back">Rating: 7/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">React.js</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Node.js</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Express.js</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">MongoDB</div>
+      <div class="skill-back">Rating: 9/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">MySQL</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">PostgreSQL</div>
+      <div class="skill-back">Rating: 7/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Java</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Python</div>
+      <div class="skill-back">Rating: 6/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">C++</div>
+      <div class="skill-back">Rating: 5/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">C</div>
+      <div class="skill-back">Rating: 9/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Git/GitHub</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Agile Scrum</div>
+      <div class="skill-back">Rating: 7/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">API Integration</div>
+      <div class="skill-back">Rating: 7/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Responsive Design</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-inner">
+      <div class="skill-front">Debugging</div>
+      <div class="skill-back">Rating: 8/10</div>
+    </div>
+  </div>
+</div>
+
+<div class="floating-hex-container">
+  <div class="floating-hex"></div>
+  <div class="floating-hex"></div>
+  <div class="floating-hex"></div>
+  <div class="floating-hex"></div>
+</div>
+
+  </section>
+  <div class="section-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,117.3C672,96,768,64,864,74.7C960,85,1056,139,1152,138.7C1248,139,1344,85,1392,58.7L1440,32L1440,320L0,320Z"></path>
+  </svg>
+</div>
+
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250.png?text=Quiz+App" alt="Quiz App">
+        <h3>Quiz App</h3>
+        <p>Built a web-based quiz app using <b>MERN stack</b>. Dynamic questions, real-time scoring, responsive UI.</p>
+        <div class="project-buttons">
+          <a href="https://github.com/debjit699971/QuizApp-MERN-Debjit" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250.png?text=Library+System" alt="Library Management System">
+        <h3>Library Management System</h3>
+        <p>Java-based library management system using <b>OOP principles</b>. Automated cataloging & user management.</p>
+        <div class="project-buttons">
+          <a href="https://github.com/debjit699971/Library-Management-System-Debjit" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+     <!-- Floating Squares Animation -->
+  <div class="floating-square"></div>
+  <div class="floating-square"></div>
+  <div class="floating-square"></div>
+
+  </section>
+  <div class="section-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,117.3C672,96,768,64,864,74.7C960,85,1056,139,1152,138.7C1248,139,1344,85,1392,58.7L1440,32L1440,320L0,320Z"></path>
+  </svg>
+</div>
+
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Full Stack Web Development Trainee</h3>
+        <p><b>Ardent Computech Pvt. Ltd</b> | Feb 2024 - Mar 2024</p>
+        <ul>
+          <li>Built full-stack apps improving performance by 30%.</li>
+          <li>Created 3 modules integrating REST APIs.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <h3>Java Programming Trainee</h3>
+        <p><b>Sikharthy Infotech Pvt. Ltd</b> | Nov 2023 - Dec 2023</p>
+        <ul>
+          <li>Applied OOP principles in Java.</li>
+          <li>Built student record & library modules.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-orb-container">
+  <div class="timeline-orb"></div>
+  <div class="timeline-orb"></div>
+  <div class="timeline-orb"></div>
+  <div class="timeline-orb"></div>
+  <div class="timeline-orb"></div>
+    </div>
+
+  </section>
+
+  <!-- Education -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+    
+    <a href="assets/education/btech.pdf" target="_blank" class="edu-card">
+      🎓 B.Tech in CSE <br>
+      <small>Siliguri Institute of Technology | 2023 - 2026</small>
+    </a>
+
+    <a href="assets/education/diploma.pdf" target="_blank" class="edu-card">
+      🎓 Diploma in CSE <br>
+      <small>Siliguri Government Polytechnic | 2020 - 2023 | OGPA: 9.0+</small>
+    </a>
+
+    <a href="assets/education/secondary.pdf" target="_blank" class="edu-card">
+      🎓 Secondary Education <br>
+      <small>Angela High School (WBBSE) | 2011 - 2020 | 70%</small>
+    </a>
+  </div>
+
+  <i class="fas fa-book floating-book"></i>
+  <i class="fas fa-book floating-book"></i>
+  <i class="fas fa-book floating-book"></i>
+  <i class="fas fa-book floating-book"></i>
+
+
+  <!-- Wave Divider -->
+  <div class="wave-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150" preserveAspectRatio="none">
+      <path d="M0,64L48,80C96,96,192,128,288,138.7C384,149,480,139,576,117.3C672,96,768,64,864,74.7C960,85,1056,139,1152,138.7C1248,139,1344,85,1392,58.7L1440,32L1440,320L0,320Z"></path>
+    </svg>
+  </div>
+</section>
+
+
+
+ <!-- Certificates -->
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="cert-grid">
+    <a href="assets/certificates/OOP-Java.pdf" target="_blank" class="cert-card">🏆 OOP using Java (Sikharthy Infotech)</a>
+    <a href="assets/certificates/FullStack.pdf" target="_blank" class="cert-card">🏆 Full Stack Development (Ardent Computech)</a>
+    <a href="assets/certificates/AI-Workshop.pdf" target="_blank" class="cert-card">🏆 AI Tools Workshop (Be10x)</a>
+    <a href="assets/certificates/GFG-160.pdf" target="_blank" class="cert-card">🏆 GfG 160 Days of Problem Solving</a>
+  </div>
+
+<div class="sparkle-container">
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+</div>
+
+
+</section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> debjitdas8422@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 7384365343</p>
+        <p><i class="fas fa-map-marker-alt"></i> Kolkata, WB</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/debjit-das2003" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/debjit699971" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Debjit Das | Portfolio</p>
+    <a href="#hero" class="back-to-top">↑</a>
+  </footer>
+
+  <!-- Rating Popup & Overlay (paste before </body>) -->
+<div id="popup-overlay" style="display:none;"></div>
+
+<div id="skill-rating-popup" style="display:none;">
+  <h3 id="skill-name">Skill</h3>
+
+  <div class="rating-bar" aria-hidden="true">
+    <div id="rating-fill" class="rating-fill" style="width:0%"></div>
+  </div>
+
+  <p id="rating-text">Rating: 0/10</p>
+  <button id="close-rating">Close</button>
+</div>
+
+
+  <!-- Your Script -->
+  <script src="script.js"></script>
+</body>
+</html>
