@@ -7,6 +7,27 @@ It showcases my skills, projects, education, certificates, and contact informati
 
 ---
 
+## 🚀 Tech Stack
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![ScrollMagic](https://img.shields.io/badge/ScrollMagic-6DB33F?style=for-the-badge&logo=magic&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+## 📑 Table of Contents
+- [✨ Features](#-features)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [📸 Screenshots](#-screenshots)
+- [🚀 Deployment](#-deployment)
+- [📌 Setup (Run Locally)](#-setup-run-locally)
+- [📬 Contact Me](#-contact-me)
+
+---
+
 ## ✨ Features
 
 - ⚡ **Responsive Design** – Works on desktop & mobile.
